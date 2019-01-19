@@ -14,14 +14,17 @@ In this project, we have successfully developed a “face dancing machine” gam
 * Imutils 0.5.2
 * Dlib 19.16.99 (NOTE: turn on NEON and VPFV3 hardware optimizations when compiling via source)
 * Numpy
+[id]: https://github.com/NTUEE-ESLab/2018Fall-FaceDanceMachine/blob/master/Final%20Project%20Report.pdf
+The installation step of packages mentioned above are expanded in [Final Project Report.pdf][id].
 
-The installation step of packages mentioned above are expanded in our Final Project Report.
 ## Usage
 After setting up all the dependencies, we can clone the whole repository to anywhere on our computer. A model for detecting faces has to be downloaded into the same directory as well. Finally, we can run and play with the program by executing the ‘main.py’ script. Instructions are shown as the followings:
+
 > $ git clone https://github.com/NTUEE-ESLab/2018Fall-FaceDanceMachine.git'
 
 download the model here: https://goo.gl/Z2JCch and put it in the above directory.  
 To execute the game, run
+
 > $ python3 main.py  
 
 ## System structure
@@ -33,7 +36,6 @@ To execute the game, run
 ## Facial expression
 We select ten facial expressions as galleries. The photos captured by camera are first transformed into grayscale images, then we detect faces (use Dlib tool), transform them into landmarks(with pretrained detector "shape_predictor_68_face_landmarks"), and eventually compare those landmarks (target) with galleries and compute their similarity.
 
-### Galleries
 [id]: https://github.com/NTUEE-ESLab/2018Fall-FaceDanceMachine/blob/master/Similarity.py
 What conditions we used to distinguish if a target belongs to any galleries and how we calculated their similarity are in [Similarity.py][id]
 

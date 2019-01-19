@@ -12,6 +12,7 @@ In this project, we have successfully developed a “face dancing machine” gam
 
 ## Environment
 * Raspberry Pi3
+* Picamera
 * Python 3
 * OpenCV 3.4.3 (NOTE: turn on NEON and VPFV3 hardware optimizations when compiling via source)
 * Pygame 1.9.3
@@ -40,7 +41,7 @@ $ python3 main.py
 ![Game Pages](GamePage.PNG)
 
 ## Facial expression
-We select ten facial expressions as galleries. The photos captured by camera are first transformed into grayscale images, then we detect faces (use Dlib tool), transform them into landmarks(with pretrained detector "shape_predictor_68_face_landmarks"), and eventually compare those landmarks (target) with galleries and compute their similarity.
+We select 10 facial expressions as galleries. The photos captured by camera are first transformed into grayscale images, then we detect faces (use Dlib tool), transform them into landmarks(with pretrained detector "shape_predictor_68_face_landmarks"), and eventually compare those landmarks (target) with galleries and compute their similarity.
 
 [id]: https://github.com/NTUEE-ESLab/2018Fall-FaceDanceMachine/blob/master/Similarity.py
 What conditions we used to distinguish if a target belongs to any galleries and how we calculated their similarity are in [Similarity.py][id]

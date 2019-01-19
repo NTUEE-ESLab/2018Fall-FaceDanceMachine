@@ -16,8 +16,10 @@ In this project, we have successfully developed a “face dancing machine” gam
 [![Demo link](https://img.youtube.com/vi/WfL82hLIuYI/0.jpg)](https://www.youtube.com/watch?v=WfL82hLIuYI&feature=youtu.be)
 
 ## Environment
+### Hardware
 * Raspberry Pi3
 * Picamera
+### Software packages
 * Python 3
 * OpenCV 3.4.3 (NOTE: turn on NEON and VPFV3 hardware optimizations when compiling via source)
 * Pygame 1.9.3

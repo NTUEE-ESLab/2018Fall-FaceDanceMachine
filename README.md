@@ -1,6 +1,9 @@
 # 2018Fall-FaceDanceMachine  
 Time to exercise your face and play the dancing machine game!  
 Please refer to the "Final Project Report.pdf" to have a complete understanding of our project.
+  
+[id]: https://github.com/NTUEE-ESLab/2018Fall-FaceDanceMachine/blob/master/Final%20Project%20Report.pdf
+For more details, please check out [Final Project Report.pdf][id].
 
 ## Author
 Szu-Yu Mo（莫絲羽）<evamo.tw1@gmail.com> ;  

@@ -2,7 +2,6 @@
 Time to exercise your face and play the dancing machine game!  
 Please refer to the "Final Project Report.pdf" to have a complete understanding of our project.
 
-==
 ## Author
 Szu-Yu Mo（莫絲羽）<evamo.tw1@gmail.com> ;  
 Yu-Shan Huang（黃郁珊）<qazwsx860809@gmail.com>

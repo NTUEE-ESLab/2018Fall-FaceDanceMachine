@@ -5,5 +5,10 @@ In this project, we have successfully developed a “face dancing machine” gam
 
 ## Demo video
 ## Implementation
-### Environment set up
+### Environment
+* OpenCV 3.4.3
+* Pygame 1.9.3
+* Imutils 0.5.2
+* Dlib 19.16.99
+*
 ### System structure 

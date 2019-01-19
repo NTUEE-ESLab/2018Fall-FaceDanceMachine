@@ -17,8 +17,9 @@ In this project, we have successfully developed a “face dancing machine” gam
 * Imutils 0.5.2
 * Dlib 19.16.99 (NOTE: turn on NEON and VPFV3 hardware optimizations when compiling via source)
 * Numpy
+  
 [id]: https://github.com/NTUEE-ESLab/2018Fall-FaceDanceMachine/blob/master/Final%20Project%20Report.pdf
-  The installation step of packages mentioned above are expanded in [Final Project Report.pdf][id].
+The installation step of packages mentioned above are expanded in [Final Project Report.pdf][id].
 
 ## Usage
 After setting up all the dependencies, we can clone the whole repository to anywhere on our computer. A model for detecting faces has to be downloaded into the same directory as well. Finally, we can run and play with the program by executing the ‘main.py’ script. Instructions are shown as the followings:

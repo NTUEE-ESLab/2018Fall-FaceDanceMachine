@@ -6,11 +6,13 @@ In this project, we have successfully developed a “face dancing machine” gam
 ## Demo video
 ## Implementation
 ### Environment
-* OpenCV 3.4.3
+* Raspberry Pi3
+* Python 3
+* OpenCV 3.4.3 (NOTE: turn on NEON and VPFV3 hardware optimizations when compiling via source)
 * Pygame 1.9.3
 * Imutils 0.5.2
-* Dlib 19.16.99
-* Python
+* Dlib 19.16.99 (NOTE: turn on NEON and VPFV3 hardware optimizations when compiling via source)
+* Numpy
 
-The steps of installation on Raspberry Pi3 are expanded in our final report.
+The installation step of packages mentioned above are expanded in our Final Project Report.
 ### System structure 

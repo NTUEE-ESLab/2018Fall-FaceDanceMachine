@@ -22,7 +22,8 @@ After setting up all the dependencies, we can clone the whole repository to anyw
 
 download the model here: https://goo.gl/Z2JCch and put it in the above directory.  
 To execute the game, run
-> $ python3 main.py
+> $ python3 main.py  
+
 ## System structure
 ![System structure](SystemStructure.PNG)
 
@@ -30,10 +31,10 @@ To execute the game, run
 ![Game Pages](GamePage.PNG)
 
 ## Facial expression
-We select ten facial expressions as galleries. The photos captured by camera are first transformed into grayscale images, then we detect faces (use Dlib tool), transform them into landmarks(with pretrained detector "shape_predictor_68_face_landmarks), and eventually compare those landmarks (target) with galleries and compute their similarity.
+We select ten facial expressions as galleries. The photos captured by camera are first transformed into grayscale images, then we detect faces (use Dlib tool), transform them into landmarks(with pretrained detector "shape_predictor_68_face_landmarks"), and eventually compare those landmarks (target) with galleries and compute their similarity.
 
 ### Galleries
-
-
+[id]: https://github.com/NTUEE-ESLab/2018Fall-FaceDanceMachine/blob/master/Similarity.py
+What conditions we used to distinguish if a target belongs to any galleries and how we calculated their similarity are in [Similarity.py][id]
 
 

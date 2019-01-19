@@ -10,5 +10,7 @@ In this project, we have successfully developed a “face dancing machine” gam
 * Pygame 1.9.3
 * Imutils 0.5.2
 * Dlib 19.16.99
-*
+* Python
+
+The steps of installation on Raspberry Pi3 are expanded in our final report.
 ### System structure 

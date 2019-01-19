@@ -1,5 +1,8 @@
 Face Dance Machine on Raspberry Pi3
 ==
+[id]: https://github.com/NTUEE-ESLab/2018Fall-FaceDanceMachine/blob/master/Final%20Project%20Report.pdf
+For more details, please check out [Final Project Report.pdf][id].
+
 ## Author
 Szu-Yu Mo（莫絲羽）<evamo.tw1@gmail.com> ;  
 Yu-Shan Huang（黃郁珊）<qazwsx860809@gmail.com>
@@ -11,8 +14,10 @@ In this project, we have successfully developed a “face dancing machine” gam
 [![Demo link](https://img.youtube.com/vi/WfL82hLIuYI/0.jpg)](https://www.youtube.com/watch?v=WfL82hLIuYI&feature=youtu.be)
 
 ## Environment
+### Hardware
 * Raspberry Pi3
 * Picamera
+### Software packages
 * Python 3
 * OpenCV 3.4.3 (NOTE: turn on NEON and VPFV3 hardware optimizations when compiling via source)
 * Pygame 1.9.3
@@ -45,5 +50,4 @@ We select 10 facial expressions as galleries. The photos captured by camera are 
 
 [id]: https://github.com/NTUEE-ESLab/2018Fall-FaceDanceMachine/blob/master/Similarity.py
 What conditions we used to distinguish if a target belongs to any galleries and how we calculated their similarity are in [Similarity.py][id]
-
 

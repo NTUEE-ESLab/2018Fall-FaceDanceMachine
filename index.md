@@ -16,7 +16,7 @@ In this project, we have successfully developed a “face dancing machine” gam
 * Pygame 1.9.3
 * Imutils 0.5.2
 * Dlib 19.16.99 (NOTE: turn on NEON and VPFV3 hardware optimizations when compiling via source)
-* Numpy
+* Numpy  
 [id]: https://github.com/NTUEE-ESLab/2018Fall-FaceDanceMachine/blob/master/Final%20Project%20Report.pdf
 The installation step of packages mentioned above are expanded in [Final Project Report.pdf][id].
 

@@ -1,7 +1,7 @@
 Face Dance Machine on Raspberry Pi3
 ==
-[id]: https://github.com/NTUEE-ESLab/2018Fall-FaceDanceMachine/blob/master/Final%20Project%20Report.pdf
-For more details, please check out [Final Project Report.pdf][id].
+[id1]: https://github.com/NTUEE-ESLab/2018Fall-FaceDanceMachine/blob/master/Final%20Project%20Report.pdf
+For more details, please check out [Final Project Report.pdf][id1].
 
 ## Author
 Szu-Yu Mo（莫絲羽）<evamo.tw1@gmail.com> ;  
@@ -49,6 +49,6 @@ $ python3 main.py
 ## Facial expression
 We select 10 facial expressions as galleries. The photos captured by camera are first transformed into grayscale images, then we detect faces (use Dlib tool), transform them into landmarks(with pretrained detector "shape_predictor_68_face_landmarks"), and eventually compare those landmarks (target) with galleries and compute their similarity.
 
-[id]: https://github.com/NTUEE-ESLab/2018Fall-FaceDanceMachine/blob/master/Similarity.py
-What conditions we used to distinguish if a target belongs to any galleries and how we calculated their similarity are in [Similarity.py][id]
+[id2]: https://github.com/NTUEE-ESLab/2018Fall-FaceDanceMachine/blob/master/Similarity.py
+What conditions we used to distinguish if a target belongs to any galleries and how we calculated their similarity are in [Similarity.py][id2]
 
